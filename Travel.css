@@ -1,0 +1,67 @@
+#hero{
+    height: 800px;
+    background-image:url(image/icon/places/travel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#hero-content{
+    width: 800px;
+    background-color: rgba(55, 45, 45, 0.2);
+    box-shadow: 2px,4px,2px rgb(44, 38, 38);
+    text-align: center;
+    padding: 50px,0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    border-radius: 8px;
+}
+#hero-content  h1{
+           color: aliceblue;
+           font-size: 50px;
+           font-weight: 700;
+}
+#hero-content a{
+    background-color: rgb(239, 194, 13);
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+   
+    border-radius: 4px;
+    box-shadow: 2px 4px rgb(44, 38, 38);
+}
+
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow:2px 4px 8px rgba(68,67,67);
+    border-radius: 10px;
+    margin: 2px 4px;
+}
+#destination {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}  
+.destination {
+    margin: 0px 20px;
+    font-size: 20px;
+    color: rgb(84, 75, 75);
+    
+}
+.destination p{
+    text-align: center;
+
+}
+#highlights h2{
+    text-align: center;
+    color: rgb(145, 102, 10);
+    text-transform: uppercase;
+}
+.destination strong{
+    color: rgb(12, 129, 49);
+}
+#highlights {
+    padding: 24px;
+    background-color: rgb(77, 199, 218);
+}
