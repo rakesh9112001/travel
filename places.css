@@ -1,0 +1,44 @@
+main li img{
+    width: 300px;
+    height: 280px;
+}
+body{
+    background:linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+}
+header{
+    position: static;
+}
+main ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+li:nth-of-type(3){
+    grid-column: 1 /span 29;
+}
+
+main li{
+   display: flex;
+   margin: 2px;
+    background-color: white;
+    overflow: hidden;
+
+}
+.iteam-class{
+    padding: 24px;
+}
+
+.actions a{
+    text-decoration: none;
+    padding: 6px;
+    color: aqua;
+}
+.actions {
+    text-align: center;
+    border-radius: 5px;
+}
+.actions a :hover{
+    background-color: blue;
+}
